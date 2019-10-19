@@ -8,5 +8,3 @@ fields:
     required: false
   label: SayHello
   description: Say Hello World
-pages:
-- content/posts/HelloWorld.cn.md
