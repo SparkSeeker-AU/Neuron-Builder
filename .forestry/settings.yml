@@ -10,16 +10,16 @@ sections:
   path: content/posts
   label: Posts
   create: all
-  match: "**/*.cn.md"
-  new_doc_ext: cn.md
+  match: "**/*.en.md"
+  new_doc_ext: en.md
 - type: heading
   label: Simplified Chinese
 - type: directory
   path: content/posts
   label: Posts
   create: all
-  match: "**/*.en.md"
-  new_doc_ext: en.md
+  match: "**/*.cn.md"
+  new_doc_ext: cn.md
 - type: heading
   label: Documentation
 - type: heading
