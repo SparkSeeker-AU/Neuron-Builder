@@ -5,16 +5,18 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: CONTENT
+  label: English
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
 - type: heading
-  label: DOCUMENTATION
+  label: Simplified Chinese
 - type: heading
-  label: FEEDBACK
+  label: Documentation
+- type: heading
+  label: Feedback
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
