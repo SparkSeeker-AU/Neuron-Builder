@@ -1,5 +1,5 @@
 +++
-test = ""
+test = "hello"
 
 +++
     import system.io;
