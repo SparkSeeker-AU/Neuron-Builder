@@ -7,11 +7,6 @@ sections:
 - type: heading
   label: CONTENT
 - type: directory
-  path: ''
-  label: Content
-  create: all
-  match: "**/*"
-- type: directory
   path: content
   label: Pages
   create: all
