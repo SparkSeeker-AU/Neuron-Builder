@@ -11,7 +11,7 @@ sections:
   label: Posts
   create: all
   match: "**/*.cn.md"
-  new_doc_ext: ".cn.md"
+  new_doc_ext: cn.md
 - type: heading
   label: Simplified Chinese
 - type: directory
@@ -19,13 +19,13 @@ sections:
   label: Posts
   create: all
   match: "**/*.en.md"
-  new_doc_ext: ".en.md"
+  new_doc_ext: en.md
 - type: heading
   label: Documentation
 - type: heading
   label: Feedback
 upload_dir: static/uploads
-public_path: "/uploads"
+public_path: "/media"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
