@@ -7,12 +7,19 @@ sections:
 - type: heading
   label: English
 - type: directory
-  path: content
-  label: Pages
+  path: content/posts
+  label: Posts
   create: all
-  match: "*"
+  match: "**/*.cn.md"
+  new_doc_ext: ".cn.md"
 - type: heading
   label: Simplified Chinese
+- type: directory
+  path: content/posts
+  label: Posts
+  create: all
+  match: "**/*.en.md"
+  new_doc_ext: ".en.md"
 - type: heading
   label: Documentation
 - type: heading
